@@ -1,7 +1,7 @@
 print('Welcome to State Bank Of India ATM')
 restart=('Y')
 chances = 3
-balance = 123205358.59
+balance = 3250.59
 while chances >= 0:
     pin = int(input('Please Enter Your 4 Digit Pin : '))
     if pin == (9823):
@@ -56,6 +56,3 @@ while chances >= 0:
         if chances == 0:
             print('\n Your Card has been Blocked Please try after 24 hours')
             break
-
-
-
