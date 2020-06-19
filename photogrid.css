@@ -1,7 +1,9 @@
-h1{
+p{
 text-align: center;
-font-family: 'Berkshire Swash', 'cursive';
-
+font-family: 'Abril Fatface';
+letter-spacing: 0.5rem;
+font-size: 40px;
+text-transform: uppercase;
 }
 img{
   float: left;
