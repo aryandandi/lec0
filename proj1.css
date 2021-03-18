@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%; 
+    /*background-color: rgb(140 151 155);*/
+    padding: 34px;
+    margin: auto;
+    }
+
+  .container h1,p{
+    
+      text-align: center;
+      
+  }  
+  p{
+      font-size: 20px;
+      font-family: 'Fugaz One', cursive;
+  }
+  input,textarea{
+    
+    width: 80%;
+    margin: auto;
+    padding: 7px;
+    outline: none;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 11px auto;
+  }
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  .btn{
+    color: white;
+    background-color: #1278ed;
+    padding: 10px 15px;
+    font-size: 20px;
+    
+    border-radius: 15px;
+}
+.ai{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.SubmitMsg{
+color: #f3030e;
+text-align: center;
+font-size: 46px;
+font-family: 'Ravi Prakash', cursive;
+
+}
+
+.heading{
+   font-size: 48px;
+   font-family: 'Cabin Sketch', cursive;
+   color: black;
+}
